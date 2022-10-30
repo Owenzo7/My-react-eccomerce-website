@@ -31,9 +31,8 @@ function Books({ books: initialBooks }) {
       );
     }
 
-    if(filter === "RATING") {
-
-        setBooks(books.slice().sort((a,b) => b.rating - a.rating))
+    if (filter === "RATING") {
+      setBooks(books.slice().sort((a, b) => b.rating - a.rating));
     }
   }
 
